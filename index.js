@@ -34,17 +34,17 @@ depositBtn.addEventListener("click", function () {
 // withdraw diposit event handler......
 const withdrawBtn = document.getElementById("withdrawBtn");
 withdrawBtn.addEventListener("click", function () {
-  const withdrawAmount = document.getElementById("withdrawAmount").value;
-const withdrawNumber = parseFloat(withdrawAmount);
+  const withdrawInput = document.getElementById("withdrawInput").value;
+const withdrawNumber = parseFloat(withdrawInput);
 
   //ride to withdraw area.......
-  const withdrawCurrent = document.getElementById("withdrawCurrent").innerText;
-  const withdrawCurrentNumber = parseFloat(withdrawCurrent);
+  const withdrawCurrentAmount = document.getElementById("withdrawCurrentAmount").innerText;
+  const withdrawCurrentNumber = parseFloat(withdrawCurrentAmount);
   const totalWithdrawAmount = withdrawNumber + withdrawCurrentNumber;
 
-  //file write to withdrawCurrent in samp area...
-  document.getElementById("withdrawCurrent").innerText = totalWithdrawAmount;
-  document.getElementById("withdrawAmount").value = "";
+  //file write to withdrawCurrentAmount in samp area...
+  document.getElementById("withdrawCurrentAmount").innerText = totalWithdrawAmount;
+  document.getElementById("withdrawInput").value = "";
 
   // decrements amount from balance section
 
