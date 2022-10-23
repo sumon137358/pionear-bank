@@ -1,0 +1,68 @@
+body {
+  padding: 100px 10px;
+}
+/* .login-area start from here  */
+.login-area {
+  border: 0px solid black;
+  padding: 20px;
+  margin: 10px 20px;
+  box-shadow: 6px 8px 10px -3px;
+  border-radius: 10px;
+}
+.login-area:hover {
+  box-shadow: 4px 5px 7px 0px;
+  border-radius: 10px;
+}
+.login-area input {
+  width: 90%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid rgb(154, 170, 175);
+  outline: none;
+}
+/* transection-area start from here  */
+.transection-area {
+  display: none;
+}
+.deposit {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.withdraw {
+  background-color: rgb(43, 55, 226);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.balance {
+  background-color: rgb(226, 43, 220);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.common-style {
+  border: 0px solid black;
+  padding: 20px;
+  margin-top: 30px;
+  box-shadow: 6px 8px 10px -4px;
+  border-radius: 10px;
+}
+.common-style:hover {
+  box-shadow: 4px 5px 7px 0px;
+  border-radius: 10px;
+}
+.common-style input {
+  width: 90%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid rgb(188, 172, 172);
+  outline: none;
+}
+/* transection-area start from here  */

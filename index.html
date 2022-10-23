@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pioneer bank</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- add css link  -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- login area start from here  -->
+<div class="container">
+
+    <div class="row">
+    <h1 class="text-center">Welcome to Pioneer Bank</h1>
+
+        <div class="col-12">
+            <div  class="login-area">
+                <h1>login</h1>
+                <br>
+                <input type="email" placeholder="Email">
+                <br>
+                <input type="password" placeholder="password">
+                <br>
+                <button id="submit-btn" class="btn btn-success">Enter</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- login area end from here  -->
+    <!-- transection-area start from here  -->
+<div class="transection-area">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="deposit">
+                    <h2>Deposit</h2>
+                    <h3>$ <samp id="depositAmount">00</samp> </h3>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="withdraw">
+                    <h2>withdraw</h2>
+                    <h3>$ <samp id="withdrawCurrent">00</samp></h3>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="balance">
+                    <h2>balance</h2>
+                    <h3>$ <samp id="balanceAmount">1240</samp></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="deposit-second-area common-style">
+                    <h3>Deposit</h3>
+                    <input  id="diposit-input" type="text" placeholder="$ amount you want to deposit">
+                    <br>
+
+                    <button id="deposit-button" class="btn btn-success">Deposit</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="withdraw-second-area common-style">
+                    <h3>withdraw</h3>
+                    <input id="withdrawAmount" type="text" placeholder="$ amount you want to deposit">
+                    <br>
+
+                    <button id="withdrawBtn" class="btn btn-success">withdraw</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- transection-area end from here  -->
+
+    <script src="./index.js"></script>
+</body>
+</html>
